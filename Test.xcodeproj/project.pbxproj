@@ -22,6 +22,12 @@
 		7D861667142EE5640066BA50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D861665142EE5640066BA50 /* InfoPlist.strings */; };
 		7D86166A142EE5640066BA50 /* TestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7D861669142EE5640066BA50 /* TestTests.h */; };
 		7D86166C142EE5640066BA50 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D86166B142EE5640066BA50 /* TestTests.m */; };
+		7D861676142EEB6E0066BA50 /* AddonSettingsSharing.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D861675142EEB6E0066BA50 /* AddonSettingsSharing.png */; };
+		7D861678142EEC700066BA50 /* AddonStoreLocator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D861677142EEC700066BA50 /* AddonStoreLocator.png */; };
+		7D86167A142EED060066BA50 /* view-stock-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D861679142EED060066BA50 /* view-stock-banner.jpg */; };
+		7D86167C142EEDA00066BA50 /* imgs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D86167B142EEDA00066BA50 /* imgs.jpg */; };
+		7D86167E142EEDF40066BA50 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D86167D142EEDF40066BA50 /* car.jpg */; };
+		7D861680142EEE5C0066BA50 /* car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D86167F142EEE5C0066BA50 /* car1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +45,28 @@
 		7D86163C142EE5640066BA50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D86163E142EE5640066BA50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D861640142EE5640066BA50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D861644142EE5640066BA50 /* Test-Info.plist */ = {isa = PBXFileReference; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		7D861644142EE5640066BA50 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		7D861646142EE5640066BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D861648142EE5640066BA50 /* Test-Prefix.pch */ = {isa = PBXFileReference; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		7D861648142EE5640066BA50 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		7D861649142EE5640066BA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D86164B142EE5640066BA50 /* TestAppDelegate.h */ = {isa = PBXFileReference; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		7D86164B142EE5640066BA50 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
 		7D86164C142EE5640066BA50 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
 		7D86164F142EE5640066BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7D861651142EE5640066BA50 /* TestViewController.h */ = {isa = PBXFileReference; path = TestViewController.h; sourceTree = "<group>"; };
+		7D861651142EE5640066BA50 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		7D861652142EE5640066BA50 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		7D861655142EE5640066BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
 		7D86165C142EE5640066BA50 /* TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D861664142EE5640066BA50 /* TestTests-Info.plist */ = {isa = PBXFileReference; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
+		7D861664142EE5640066BA50 /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		7D861666142EE5640066BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D861668142EE5640066BA50 /* TestTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestTests-Prefix.pch"; sourceTree = "<group>"; };
+		7D861668142EE5640066BA50 /* TestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTests-Prefix.pch"; sourceTree = "<group>"; };
 		7D861669142EE5640066BA50 /* TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTests.h; sourceTree = "<group>"; };
 		7D86166B142EE5640066BA50 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		7D861675142EEB6E0066BA50 /* AddonSettingsSharing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddonSettingsSharing.png; sourceTree = "<group>"; };
+		7D861677142EEC700066BA50 /* AddonStoreLocator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddonStoreLocator.png; sourceTree = "<group>"; };
+		7D861679142EED060066BA50 /* view-stock-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "view-stock-banner.jpg"; sourceTree = "<group>"; };
+		7D86167B142EEDA00066BA50 /* imgs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgs.jpg; sourceTree = "<group>"; };
+		7D86167D142EEDF40066BA50 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		7D86167F142EEE5C0066BA50 /* car1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,12 @@
 		7D861642142EE5640066BA50 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				7D86167F142EEE5C0066BA50 /* car1.jpg */,
+				7D86167D142EEDF40066BA50 /* car.jpg */,
+				7D86167B142EEDA00066BA50 /* imgs.jpg */,
+				7D861679142EED060066BA50 /* view-stock-banner.jpg */,
+				7D861675142EEB6E0066BA50 /* AddonSettingsSharing.png */,
+				7D861677142EEC700066BA50 /* AddonStoreLocator.png */,
 				7D86164B142EE5640066BA50 /* TestAppDelegate.h */,
 				7D86164C142EE5640066BA50 /* TestAppDelegate.m */,
 				7D86164E142EE5640066BA50 /* MainWindow.xib */,
@@ -228,6 +246,12 @@
 				7D861647142EE5640066BA50 /* InfoPlist.strings in Resources */,
 				7D861650142EE5640066BA50 /* MainWindow.xib in Resources */,
 				7D861656142EE5640066BA50 /* TestViewController.xib in Resources */,
+				7D861676142EEB6E0066BA50 /* AddonSettingsSharing.png in Resources */,
+				7D861678142EEC700066BA50 /* AddonStoreLocator.png in Resources */,
+				7D86167A142EED060066BA50 /* view-stock-banner.jpg in Resources */,
+				7D86167C142EEDA00066BA50 /* imgs.jpg in Resources */,
+				7D86167E142EEDF40066BA50 /* car.jpg in Resources */,
+				7D861680142EEE5C0066BA50 /* car1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
